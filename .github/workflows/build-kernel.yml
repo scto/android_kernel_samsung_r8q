@@ -1,11 +1,9 @@
 name: Build STAGING Kernel
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   push:
     branches:
-      - main
+      - los-18.1
 
 jobs:
   build:
